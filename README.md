@@ -54,3 +54,7 @@ preprocess_and_mean.py: python script that makes hash for all k-mer information 
 preprocess.sh: bash script that calls preprocess_and_mean.py
 
 sample_plots.sh: bash script that calls find_threshold_seqs.py
+
+
+WITHIN MeanSCRAPT DIRECTORY:
+This directory should be an almost complete copy of the original SCRAPT program. It is easier to download the original SCRAPT and change files within the src directory than implement SCRAPT through this github. The entire directory of SCRAPT should be replaced with the src.zip directory found within this github.
